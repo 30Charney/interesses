@@ -1,0 +1,171 @@
+meu-perfil/
+index.html
+style.css
+assets/
+avatar.png
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charney | Full Stack Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+
+ <div class="avatar">
+        👤
+ </div>
+
+  <h1>Olá, eu sou Charney 👋</h1>
+
+  <p class="subtitle">
+        Desenvolvedor Full Stack | Python | SQL | JavaScript
+  </p>
+
+  <a href="https://github.com/seuusuario" class="btn">
+        Saiba mais
+   </a>
+
+  <div class="goal">
+        🚀 Meu objetivo é criar soluções inovadoras e compartilhar projetos no GitHub.
+ </div>
+
+ <hr>
+
+ <div class="skills">
+
+<div class="skill">
+            🐍
+ <span>Python</span>
+ </div>
+
+   <div class="skill">
+            ⚛️
+   <span>React</span>
+   </div>
+
+   <div class="skill">
+            💾
+    <span>SQL</span>
+    </div>
+
+   <div class="skill">
+            🌐
+   <span>HTML/CSS</span>
+   </div>
+   </div>
+
+  <footer>
+       Desenvolvido por Charney 💙
+  </footer>
+
+</div>
+
+</body>
+</html>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+    background:linear-gradient(
+        135deg,
+        #0f3bff,
+        #9333ea
+    );
+}
+
+.card{
+    width:700px;
+    background:white;
+    padding:50px;
+    border-radius:25px;
+    text-align:center;
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,.15);
+}
+
+.avatar{
+    font-size:80px;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#0f2d6b;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+
+    padding:15px 40px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:linear-gradient(
+        90deg,
+        #2563eb,
+        #9333ea
+    );
+
+    font-weight:bold;
+}
+
+.goal{
+    margin-top:30px;
+
+    padding:20px;
+
+    border:2px solid #7ee787;
+
+    border-radius:12px;
+
+    background:#f0fff4;
+
+    color:#14532d;
+}
+
+.skills{
+    display:flex;
+
+    justify-content:space-around;
+
+    margin-top:40px;
+}
+
+.skill{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    font-size:30px;
+}
+
+.skill span{
+    font-size:16px;
+}
+
+footer{
+    margin-top:40px;
+    color:#777;
+}
