@@ -10,7 +10,10 @@ body{
     justify-content:center;
     align-items:center;
     min-height:100vh;
-    background:linear-gradient(135deg,#0f3bff,#9333ea);
+    background-image: url("hacker.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .card{
